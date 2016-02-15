@@ -1,5 +1,17 @@
 extends layout
 
 block content
-  h1= title
-  p Welcome to #{title}
+  include partials/template/header.jade
+  include partials/content/speakers-list.jade
+  
+  section.layout
+    .primary
+      include partials/content/who-are-we.jade
+      include partials/content/get-busy.jade
+      include partials/content/who-should-come.jade
+    aside.secondary
+      include partials/content/next-meeting.jade
+      include partials/content/artwork-list.jade
+      
+  include partials/template/footer.jade
+  include partials/template/jsdefaults.jade
