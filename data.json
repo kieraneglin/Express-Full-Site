@@ -25,15 +25,15 @@
   "social" : [{
     "shortname" : "twitter",
     "img" : "/images/socialmedia/twitter.png",
-    "url" : "http://www.twitter.com/test"
+    "url" : "http://www.twitter.com/"
   },{
     "shortname" : "facebook",
     "img" : "/images/socialmedia/facebook.png",
-    "url" : "http://www.facebook.com/test"
+    "url" : "http://www.facebook.com/"
   },{
     "shortname" : "meetup",
     "img" : "/images/socialmedia/meetup.png",
-    "url" : "http://www.meetup.com/test/"
+    "url" : "http://www.meetup.com/"
   }],
 
   "meeting" : {

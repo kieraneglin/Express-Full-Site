@@ -1,2 +1,7 @@
 article.socialmediaicons
   span.title Join the movement:
+  ul.group
+    -each item in appdata.social
+      li
+        a(href=item.url)
+          img.icon(src=item.img)
