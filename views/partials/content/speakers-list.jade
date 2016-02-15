@@ -1,1 +1,20 @@
 article.speakerslist
+  section.layout
+    .speakers
+      -each item in artists
+        article.artist.group
+          h3= item.title
+            span.small 
+              |  with
+              a(href="/speakers/#{item.shortname}") 
+                =item.name
+
+          p
+            a(href="/speakers/#{item.shortname}")
+              img.speaker(src="/images/speakers/#{item.shortname}_tn.jpg")
+              
+            -if(page != 'home')
+              -if(page === 'artistList')
+                !=item.summary
+              -else
+                !=item.description

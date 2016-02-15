@@ -4,7 +4,7 @@ var pixGrid = function() {
         return theImage.style.top = myDifY + "px", theImage.style.left = myDifX + "px",
         theImage;
     }
-    if (document.querySelector('.mydivclass') !== null) {
+    if (document.querySelector('.pixgrid') !== null) {
     var myNode = document.querySelector(".pixgrid");
     myNode.addEventListener("click", function(e) {
         if ("IMG" === e.target.tagName) {

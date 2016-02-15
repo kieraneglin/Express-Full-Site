@@ -1,2 +1,7 @@
 article.artworklist
   h1 Artwork on display
+  p While you attend the conference, head over to our gallery where you can check out some of the work from our speakers
+  .pixgrid
+    -if(artwork.length > 0)
+      -for(i=0; i<artwork.length; i++)
+        img(src="/images/artwork/#{artwork[i]}")

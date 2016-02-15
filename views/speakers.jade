@@ -1,0 +1,15 @@
+extends layout
+
+block content
+  include partials/template/header.jade
+  
+  section.layout
+    .primary
+      include partials/content/speakers-list.jade
+
+    aside.secondary
+      include partials/content/next-meeting.jade
+      include partials/content/artwork-list.jade
+      
+  include partials/template/footer.jade
+  include partials/template/jsdefaults.jade
